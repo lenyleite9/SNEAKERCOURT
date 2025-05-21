@@ -1,0 +1,24 @@
+.img1, .img3, .socials a, .div3 { behavior:url(js/PIE.htc); position:relative;}
+
+
+.camera_prev, .camera_next { behavior:url(js/PIE.htc); position:absolute;}
+
+
+a.gal:hover img {
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+}
+
+#form .invalid .error-message, #form .empty .empty-message {
+	display: block;
+}
+
+#form .error-message, #form .empty-message {
+	display: none;
+}
+.socials {
+	margin: 0 -9px;
+}
+
+.socials a {
+	margin: 0 9px 20px;
+}

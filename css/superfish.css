@@ -1,0 +1,72 @@
+.sf-menu {
+	margin-bottom: 19px;
+	float: right;
+	padding-top: 21px;
+}
+.sf-menu>li {
+	position: relative;
+	float: left;
+}
+.sf-menu>li+li {
+	margin-left: 38px;
+}
+.sf-menu li a {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+.sf-menu>li>a {
+	position: relative;
+	font-weight: 900;
+	display: inline-block;
+	line-height: 30px;
+	text-decoration: none;
+}
+.sf-menu>li.current>a, .sf-menu>li.sfHover>a, .sf-menu>li>a:hover {
+	color: #282b2d;
+}
+.sf-menu ul {
+	border: 1px solid #3b3b3b;
+	z-index: 500;
+	position: absolute;
+	width: 152px;
+	background: #282b2d; 
+	top: 48px;
+	left: 0;
+	padding: 13px 5px 15px 33px;
+}
+.sf-menu ul a {
+	font-weight: 700;
+	line-height: 48px;
+}
+.sf-menu ul a:hover{
+	color: #48e0a4;
+}
+.sf-menu ul ul{
+	left: 192px;
+	top: -1px;
+}
+
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 995px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.sf-menu {display:none !important; float: none;}
+
+	#mm0 {
+		font: 12px/15px Arial, Helvetica, sans-serif;
+		color: #202020;
+		width: 100%;
+		margin: 10px auto 10px;
+		float: none;
+    	outline: none;
+		border: 1px solid #474646;
+	}
+	
+}

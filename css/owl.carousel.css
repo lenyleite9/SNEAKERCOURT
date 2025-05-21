@@ -1,0 +1,98 @@
+#owl {
+	overflow: hidden;
+	z-index: 1;
+	margin: -120px -10px 0;
+	position: relative;
+	padding-top: 120px;
+	padding-bottom: 54px;
+}
+
+#owl .owl-item {
+	float: left;
+	width: 100%;
+}
+
+#owl .item {
+	padding: 0 10px;
+	position: relative;
+	text-align: left;
+	margin-bottom: 11px;
+}
+
+#owl .item img{
+	width: 100%;
+}
+
+#owl figure {
+	margin-bottom: 20px;
+}
+
+#owl .item .count {
+	color: #e3e3e3;
+	letter-spacing: -1px;
+	margin-bottom: 24px;
+	padding-top: 32px;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	font: bold  40px/40px 'Roboto', sans-serif;
+}
+
+
+#owl .item:hover .count {
+	color: #ff6f53;
+}
+
+#owl .item .tx {
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	min-height: 60px;
+	padding-right: 5px;
+}
+
+#owl .item a.btn {
+	margin-top: 23px;
+}
+
+.owl-wrapper-outer {
+	overflow: hidden;
+}
+
+#owl .owl-prev, #owl .owl-next {
+	cursor: pointer;
+	position: absolute;
+	background: url('../images/prevnext.png') 0 0 no-repeat;
+	display: block;
+	height: 36px;
+	top: 4px;
+	width: 23px;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+#owl .owl-prev:hover {
+	background-position: 0 bottom;
+}
+
+#owl .owl-next:hover {
+	background-position: right bottom;
+}
+
+#owl .owl-next {
+	right: 8px;
+	background-position: right 0;
+}
+
+#owl .owl-prev {
+	right: 44px;
+}
+
+/* Owl content */
+
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-perspective: 1000;
+}
